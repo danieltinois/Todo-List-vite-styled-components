@@ -8,24 +8,24 @@
   <img src="./src/assets/screenshot.png" width="" heigth="">
 </div>
 
-## ✔️ Técnicas e tecnologias utilizadas
+## ✔️ Techniques and technologies used
 
-Lista de tecnologias que foram usadas nesse projeto:
+List of technologies that were used in this project:
 
 ### 💻 Frontend
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
 
-## 🛠️ Abrir e rodar o projeto
+## 🛠️ Open and run the project
 
-Para abrir e rodar o projeto, entre na pasta web do frontend execute `npm install` para instalar as dependências e `npm run dev` para iniciar o projeto.
+To open and run the project, go to the frontend web folder and run `npm install` to install the dependencies and `npm run dev` to start the project.
 
-Depois, acesse <a href="http://localhost:5173/">http://localhost:5173/</a> no seu navegador.
+Then, access <a href="http://localhost:5173/">http://localhost:5173/</a> in your browser.
 
-## 📚 Mais informações
+## 📚 More information
 
-Entre em contato pelo [linkedin](https://www.linkedin.com/in/daniel-tinois-7338a2244/).
+Get in touch at [linkedin](https://www.linkedin.com/in/daniel-tinois-7338a2244/).
 
 <div align="center">
   <small>Daniel T. - 2024</small>
