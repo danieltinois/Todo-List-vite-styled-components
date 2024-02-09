@@ -12,9 +12,7 @@
 
 Lista de tecnologias que foram usadas nesse projeto:
 
-<br>
-
-### Frontend
+### 💻 Frontend
 
 ![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
 ![Styled Components](https://img.shields.io/badge/styled--components-DB7093?style=for-the-badge&logo=styled-components&logoColor=white)
