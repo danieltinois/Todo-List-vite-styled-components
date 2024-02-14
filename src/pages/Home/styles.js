@@ -102,6 +102,10 @@ export const ButtonComplete = styled.button`
   }
 `;
 
+export const AlertNoTask = styled.span`
+  color: ${({ theme }) => theme.COLORS.WHITE};
+`;
+
 export const Footer = styled.footer`
   display: flex;
   justify-content: center;

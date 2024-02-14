@@ -1,23 +1,24 @@
-import { useState, useEffect } from "react";
+import { useEffect, useState } from "react";
 
 import {
-  Container,
   BackgroundHalf,
-  InputContent,
-  Title,
-  Line,
-  TasksContent,
-  TaskUl,
-  TaskLi,
   ButtonComplete,
+  Container,
   Footer,
+  InputContent,
+  Line,
+  TaskLi,
+  TaskUl,
+  TasksContent,
+  Title,
+  AlertNoTask,
 } from "./styles";
 
-import { Input } from "../../components/input";
 import { Button } from "../../components/button";
+import { Input } from "../../components/input";
 
+import { FaRegCheckCircle, FaRegCircle, FaTrashAlt } from "react-icons/fa";
 import { GoPlus } from "react-icons/go";
-import { FaTrashAlt, FaRegCircle, FaRegCheckCircle } from "react-icons/fa";
 
 export function Home() {
   const [tasks, setTasks] = useState(() => {
@@ -79,7 +80,7 @@ export function Home() {
           </form>
         </InputContent>
 
-        {tasks.length > 0 && (
+        {tasks.length > 0 ? (
           <TasksContent>
             <TaskUl>
               {tasks.map((task, index) => (
@@ -105,6 +106,10 @@ export function Home() {
               ))}
             </TaskUl>
           </TasksContent>
+        ) : (
+          <AlertNoTask>
+            No tasks created yet, how about starting by creating one?
+          </AlertNoTask>
         )}
       </Container>
 
