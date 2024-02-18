@@ -12,6 +12,8 @@ import {
   TasksContent,
   Title,
   AlertNoTask,
+  TotalTaks,
+  LabelTaks,
 } from "./styles";
 
 import { Button } from "../../components/button";
@@ -79,6 +81,22 @@ export function Home() {
             />
           </form>
         </InputContent>
+
+        <TotalTaks>
+          <span>
+          {tasks.length}
+          <LabelTaks>
+          tasks
+          </LabelTaks>
+          </span>
+
+          <span>
+          <LabelTaks>
+          completed tasks
+          </LabelTaks>
+          {tasks.filter(tasks => tasks.completed).length}
+          </span>
+        </TotalTaks>
 
         {tasks.length > 0 ? (
           <TasksContent>

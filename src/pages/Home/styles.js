@@ -24,7 +24,7 @@ export const Container = styled.div`
 
 export const InputContent = styled.div`
   margin-top: 90px;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 `;
 
 export const Title = styled.h1`
@@ -120,3 +120,29 @@ export const Footer = styled.footer`
     color: ${({ theme }) => theme.COLORS.WHITE};
   }
 `;
+
+export const TotalTaks = styled.div`
+  width: 500px;
+
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  /* background-color: red;   */
+
+  margin-bottom: 20px;
+
+
+  font-size: 20px;
+  color: ${({theme}) => theme.COLORS.WHITE};
+  
+`;
+
+export const LabelTaks = styled.label`
+    font-size: 14px;
+
+    margin: 0px 10px;
+
+    opacity: 50%;
+
+`
