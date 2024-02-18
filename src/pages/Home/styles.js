@@ -130,7 +130,7 @@ export const TotalTaks = styled.div`
 
   /* background-color: red;   */
 
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 
 
   font-size: 20px;
